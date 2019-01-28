@@ -1,0 +1,481 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	height: 100%;
+	width: 100%;
+}
+body{
+	height: 100%;
+	width: 100%;
+	background-color: white;
+}
+.mainContainer{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	
+}
+
+.main{
+	
+	position: absolute;
+	left: 0;
+	height: 100%;
+	width: 87%;
+	background-color: white;
+}
+.nav{
+	height: 5%;
+	width: 100%;
+	margin: 0;
+}
+	
+.top{
+	height: 10%;
+	width: 100%;
+	background-color: #14a098;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.name{
+	font-family: 'Fjalla One';
+	font-size: 30px;
+	color: #cccccc;
+	text-align: center;
+	letter-spacing: 5px;
+	
+}
+#nav{
+	font-size: 18px;
+	margin: 20px;
+	font-family: 'Noto Sans';
+	color: #14a098;
+	
+
+}
+.nav a{
+	text-decoration: none;
+	color: #14a098;
+}
+
+.nav a:hover{
+	opacity: 0.7;
+	text-decoration: underline;
+}
+.content{
+	position: absolute;
+	height: 50%;
+	width: 70%;
+	
+	left: 15%;
+}	
+
+.content h1{
+   font-family: 'Noto Sans';
+   font-size: 40px;
+   font-weight: bold;
+   opacity: 0.9;
+   color: #501f3a;
+   margin: 30px;
+}	
+	
+.content p{
+	font-family: 'Noto Sans';
+   font-size: 20px;
+  
+   margin-top: 40px;
+   color: #0f292f;
+   margin-left: 30px;
+}
+
+.box{
+    
+	background-color: #14a098;
+	opacity: 0.5;
+	margin: 50px;
+	
+
+}
+.box p{
+font-family: 'Fjalla One';
+font-size: 18px;
+color: #501f3a;
+padding: 10px;
+text-align: center;
+}
+@media screen and (max-width: 700px){
+	.box p{
+		font-size: 14px;
+		padding: 0;
+		text-align: left;
+		color: black;
+		font-family: 'Noto Sans';
+	}
+	.box{
+		margin: 5px;
+	}
+}
+
+.content ul{
+	font-family: 'Noto Sans';
+   font-size: 25px;
+   opacity: 0.8;
+  
+   margin-top: 40px;
+   color: #0f292f;
+   margin-left: 30px;
+}
+.content li{
+		font-family: 'Noto Sans';
+   font-size: 20px;
+  
+   margin-top: 40px;
+   color: #0f292f;
+   margin-left: 30px;
+}
+
+.but button{
+	height: 40px;
+	width: 60px;
+	border: 5px solid  #cb2b6f;
+	border-radius: 10px;
+	background-color: white;
+	margin: 20px;
+}
+@media screen and (max-width: 700px){
+	.but{
+	   display: flex;
+	}
+}
+.content .like{
+	font-family: 'Fjalla One';
+	font-size: 18px;
+	color: #14a098;
+}
+ 
+.more{
+	display: flex;
+	
+	justify-content: space-between;
+	margin: 0;
+
+}
+.art{
+	height: 300px;
+	width: 450px;
+	
+	margin: 20px;
+	position: relative;
+	border: 5px solid #cb2b6f;
+	box-shadow: 5px 5px 5px #501f3a;
+	}
+
+@media screen and (max-width: 700px){
+    .more{
+    	flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 1000px){
+	.more{
+		flex-wrap: wrap;
+	}
+}
+
+.image{
+	position: absolute;
+	height: 60%;
+	width: 100%;
+	
+	margin: 0;
+	top: 0;
+	
+
+}
+.green{
+	background-image: url('green.jpg');
+	background-size: cover;
+}
+.yellow{
+	background-image: url('yellow.jpg');
+	background-size: cover;
+}
+.red{
+	background-image: url('red.jpg');
+	background-size: cover;
+}
+.white{
+	background-image: url('white.jpg');
+	background-size: cover;
+}
+.pink{
+	background-image: url('pink.jpg');
+	background-size: cover;
+}
+.blue{
+ background-image: url('blue.jpg');
+	background-size: cover;	
+}
+#text{
+	position: absolute;
+	height: 40%;
+	width: 100%;
+	bottom: 0;
+	margin-top: 10px;
+
+
+}	
+
+	
+.art #link{
+	font-family: 'Noto Sans';
+font-size: 16px;
+color: #14a098;
+margin-top: 0;
+margin-left: 10px;
+text-align: left;
+text-decoration: none;
+font-weight: bold;
+}
+@media screen and (max-width: 1000px){
+	.art #link{
+		font-size: 20px;
+	}
+}
+
+#grey{
+font-family: 'Fjalla One';
+font-size: 16px;
+color: #14a098;
+opacity: 0.5;
+margin: 20px;
+padding: 10px;
+text-align: left;
+letter-spacing: 5px;
+} a
+
+#link:hover {
+ color: #cb2b6f;
+ font-size: 18px;
+}
+
+
+ 
+ 
+
+#text p{
+	margin-top: 0;
+	margin-left: 10px;
+	padding: 0;
+}
+ @media screen and (max-width: 1000px){
+ 	.color{
+ 		height: 250px;
+ 		width: 400px;
+ 	}
+ }
+
+@media screen and (max-width: 500px){
+ 	.color{
+ 		height: 200px;
+ 		width: 250px;
+ 	}
+ }
+
+    
+	
+
+
+.navbar{
+	
+	
+	position: fixed;
+	right: 0;
+	height: 100%;
+	width: 13%;
+	background-color: #cb2b6f;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+@media screen and (max-width: 700px){
+	.navbar{
+		width: 20%;
+	}
+	
+}
+.navbar a{
+
+	margin: 20px;
+	position: relative;
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	font-family: 'Fjalla One';
+	cursor: pointer;
+}
+@media screen and (max-width: 700px){
+	.navbar a{
+		font-size: 16px;
+	}
+}
+
+
+.pullUp:before
+{
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0px;
+    bottom: 0px;
+    content: '';
+    background: #501f3a;
+    opacity: 0.3;
+    transition: all 0.3s;
+}
+
+.pullUp:hover:before
+{
+    height: 100%;
+}
+.mr{
+	margin-left: 47%;
+	margin-top: 5%;
+	height: 70px;
+	width: 150px;
+	background-color: #14a098;
+	border-radius: 10px;
+	font-family: 'Fjalla One';
+	font-size: 20px;
+	letter-spacing: 5px;
+	color: white;
+	font-weight: bold;
+
+}
+@media screen and (max-width: 700px){
+	.mr{
+		margin: 25%;
+	}
+}
+
+.footer{
+	background-color: #cccccc;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 40%;
+	width: 100%;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.footer h1{
+	text-align: center;
+	font-family: 'Noto Sans';
+	font-size: 25px;
+	color: #0f292f;
+	margin: auto;
+
+}
+@media screen and (max-width: 1000px){
+	.footer h1{
+		font-size: 18px;
+		margin-top: 30px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+}
+input{
+	height: 40px;
+	width:  300px;
+	background-color: #14a098;
+	font-family: 'Noto Sans';
+	font-size: 16px;
+	text-align: center;
+	color: white;
+}
+@media screen and (max-width: 700px){
+	input{
+		width: 150px;
+	}
+}
+form button{
+	height: 40px;
+	width: 80px;
+	background-color: #cb2b6f;
+	color: white;
+	font-family: 'Noto Sans';
+	font-size: 16px;
+	text-align: center;
+}
+
+.term{
+	display: flex;
+	justify-content: center;
+}
+.term a{
+	text-decoration: none;
+	color: #14a098;
+	font-size: 16px;
+	font-family: 'Fjalla One';
+	opacity: 0.8;
+	margin: 30px;
+}
+#share{
+	height: 40px;
+	width: 100px;
+	background-color: #4a6ea9;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+#fb{
+	margin-left: 10px;
+	margin-top: 3px;
+}
+#fl{
+   margin-top: 3px;
+   margin-left: 8px;
+
+	 
+}
+.butt{
+	display: flex;
+
+}
+
+#text1{
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	align-self: center;
+	margin-right: 10px;
+
+}
+#flip{
+	height: 40px;
+	width: 100px;
+	background-color: #e02828;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#email{
+	height: 40px;
+	width: 100px;
+	background-color: #bdbec0;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
